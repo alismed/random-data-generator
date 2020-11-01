@@ -2,6 +2,9 @@
 
 A script using [Faker](https://github.com/faker-ruby/faker) and [Factory Bot](https://github.com/thoughtbot/factory_bot) to generate random data in `csv` file format.
 
+### Example
+![](img/output-example.png)
+
 ### Requirements
 It is necessary [Ruby](https://www.ruby-lang.org/en/)
 
