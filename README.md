@@ -3,14 +3,14 @@
 A script using [Faker](https://github.com/faker-ruby/faker) and [Factory Bot](https://github.com/thoughtbot/factory_bot) to generate random data in `csv` file format.
 
 ### Example
-![](img/output-example.png)
+![Alt](img/output-example.png "screenshot of an example output file")
 
 ### Requirements
 It is necessary [Ruby](https://www.ruby-lang.org/en/)
 
 ### Setup
 Clone this repository and execute the command below to install the necessary Gems:
-```
+```shell
 bundle install
 ```
 
@@ -25,6 +25,12 @@ The variable `@delimiter` define the delimiter character.
 
 ### Run
 Execute the command below to generate the output file:
-```
+```shell
 ruby ./script.rb
 ```
+
+### To-do
+- unique data
+- utf-8
+- cli parameters
+- language and locale
